@@ -1,0 +1,8 @@
+{
+  "name": "mcp-sonar",
+  "version": "1.0.0",
+  "title": "SonarQube",
+  "description": "Code quality findings and coverage.",
+  "owner": "team-quality",
+  "registry": { "visualStudio": { "publish": true } }
+}
