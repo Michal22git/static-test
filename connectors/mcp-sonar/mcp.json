@@ -1,0 +1,1 @@
+{ "mcpServers": { "sonar": { "type": "http", "url": "https://sonar.example.invalid/mcp" } } }
