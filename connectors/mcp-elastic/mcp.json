@@ -1,0 +1,13 @@
+{
+  "inputs": [
+    { "id": "es_url", "type": "promptString", "description": "Cluster URL" },
+    { "id": "es_api_key", "type": "promptString", "description": "API key", "password": true }
+  ],
+  "mcpServers": {
+    "elastic": {
+      "type": "http",
+      "url": "${input:es_url}/mcp",
+      "headers": { "Authorization": "ApiKey ${input:es_api_key}" }
+    }
+  }
+}

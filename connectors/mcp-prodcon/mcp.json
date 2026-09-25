@@ -1,0 +1,1 @@
+{ "mcpServers": { "prodcon": { "type": "http", "url": "https://prodcon.example.invalid/mcp" } } }

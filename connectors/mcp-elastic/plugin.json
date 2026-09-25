@@ -1,0 +1,8 @@
+{
+  "name": "mcp-elastic",
+  "version": "0.9.0",
+  "title": "Elasticsearch",
+  "description": "Search indices and run aggregations.",
+  "owner": "team-search",
+  "registry": { "visualStudio": { "publish": true } }
+}

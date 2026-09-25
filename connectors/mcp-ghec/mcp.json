@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "ghec": {
+      "type": "http",
+      "url": "https://ghec.example.invalid/mcp",
+      "headers": { "Authorization": "Bearer ${env:GHEC_TOKEN}" }
+    }
+  }
+}

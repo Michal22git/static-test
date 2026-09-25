@@ -1,0 +1,8 @@
+{
+  "name": "mcp-prodcon",
+  "version": "2.0.1",
+  "title": "Jira & Confluence",
+  "description": "Access Jira issues and Confluence pages from the agent.",
+  "owner": "team-tooling",
+  "registry": { "visualStudio": { "publish": true } }
+}

@@ -1,0 +1,1 @@
+{ "mcpServers": { "private": { "type": "http", "url": "https://private.example.invalid/mcp" } } }

@@ -1,0 +1,8 @@
+{
+  "name": "mcp-local",
+  "version": "1.0.0",
+  "title": "Local tool",
+  "description": "Runs locally over stdio.",
+  "owner": "team-tooling",
+  "registry": { "visualStudio": { "publish": true } }
+}
