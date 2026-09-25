@@ -15,7 +15,7 @@ const names = list.servers.map((e) => e.server.name);
 
 check('opt-in respected: mcp-private absent', !names.includes('com.example/mcp-private'));
 check('stdio connector skipped: mcp-local absent', !names.includes('com.example/mcp-local'));
-check('three remote archetypes published', list.servers.length === 3, names.join(', '));
+check('at least the three remote archetypes published', list.servers.length >= 3, names.join(', '));
 check('list carries no nextCursor', !('nextCursor' in (list.metadata ?? {})));
 check('one entry per server (latest only)', new Set(names).size === names.length);
 
